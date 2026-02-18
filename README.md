@@ -44,8 +44,13 @@ The distribution shows a prominent peak between **50°F and 55°F**, indicating 
 
 ## 🎯 (b) Find an appropriate statistical model for the response variable in your data using the explanatory variables.
 
-1. Selecting an appropriate distribution for the response variable
-2. Selecting relevant explanatory variables to explain the response
+
+<details>
+<summary><b>📋 This section consists of two parts:</b></summary>
+<br>
+
+1. **Selecting an appropriate distribution** for the response variable
+2. **Selecting relevant explanatory variables** to explain the response
 
 </details>
 
