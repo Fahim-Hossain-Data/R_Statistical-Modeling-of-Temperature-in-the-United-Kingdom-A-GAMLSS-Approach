@@ -117,11 +117,11 @@ AIC: 2296.227
 
 📝 Interpretation
 
--- Residuals lie mostly within the 95% confidence bands
+* Residuals lie mostly within the 95% confidence bands
 
--- No major deviations from normality
+* No major deviations from normality
 
--- Indicates good model fit
+* Indicates good model fit
 
 <p align="center">
   <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/810104434b5491457e24b75f2ad2739787521c14/Worm-Plot_exGAUS.png" width="600"/>
@@ -138,11 +138,11 @@ A new dataset (newdt) containing 7 observations was created using the five selec
 
 Steps:
 
--- Construct new input data
+* Construct new input data
 
--- Apply predict() using the fitted GAMLSS model
+* Apply predict() using the fitted GAMLSS model
 
--- Store predictions in predicted_temperature
+* Store predictions in predicted_temperature
 
 <p align="center">
   <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/810104434b5491457e24b75f2ad2739787521c14/NewDataCreate.png" width="600"/>
