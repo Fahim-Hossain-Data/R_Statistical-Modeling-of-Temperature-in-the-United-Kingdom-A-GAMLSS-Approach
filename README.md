@@ -1,13 +1,6 @@
 # 📈 R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach
 
 <p align="center">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-  <img src="https://img.shields.io/badge/Statistics-Modeling-blue?style=for-the-badge" alt="Statistics"/>
-  <img src="https://img.shields.io/badge/GAMLSS-Framework-green?style=for-the-badge" alt="GAMLSS"/>
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status"/>
-</p>
-
-<p align="center">
   <b>📊 Statistical Modeling & Prediction of Temperature Patterns in the United Kingdom</b>
 </p>
 
