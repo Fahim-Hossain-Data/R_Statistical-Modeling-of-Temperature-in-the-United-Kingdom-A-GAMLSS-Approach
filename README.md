@@ -1,18 +1,5 @@
-# 📈 R Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach
+# 📈  Statistical Modeling of Temperature in the United Kingdom: A GAMLSS Approach
 
-<p align="center">
-  <b>📊 # 📈 R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach
-
-<p align="center">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-  <img src="https://img.shields.io/badge/Statistics-Modeling-blue?style=for-the-badge" alt="Statistics"/>
-  <img src="https://img.shields.io/badge/GAMLSS-Framework-green?style=for-the-badge" alt="GAMLSS"/>
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status"/>
-</p>
-
-<p align="center">
-  <b>📊 Statistical Modeling & Prediction of Temperature Patterns in the United Kingdom</b>
-</p>
 
 ## 📋 Project Overview
 
@@ -20,7 +7,7 @@ This project performs **statistical modeling and prediction of temperature patte
 
 ---
 
-## 📊 (a) Perform a preliminary analysis on your data, this usually involves exploratory plots.
+## 📊 (a) Perform a preliminary analysis of the dataset, this usually involves exploratory plots.
 
 ### 📝 Data Extraction & Summary
 
@@ -50,7 +37,7 @@ The distribution shows a prominent peak between **50°F and 55°F**, indicating 
 <p align="center">
   <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/e9e62b7fa22f008540f8cb41fdc3586119e32e1f/histogram.png" alt="Histogram" width="600"/>
   <br>
-  <em>Figure 3.1: Histogram for Temperature (°F) variable distribution</em>
+  <em>Figure: Histogram for Temperature (°F) variable distribution</em>
 </p>
 
 ---
@@ -100,7 +87,7 @@ The correlation between the response variable and all explanatory variables is s
 <p align="center">
   <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/885fdac2e490547adb080a5fff23949279277a54/Correlation.png" alt="Correlation Analysis" width="600"/>
   <br>
-  <em>Figure 3.3: Correlation between response variable and all explanatory variables</em>
+  <em>Figure: Correlation between response variable and all explanatory variables</em>
 </p>
 
 ### 2️⃣ Choosing appropriate distribution for the response variable
@@ -124,10 +111,10 @@ AIC: 2296.227
 </p>
 
 
-### (c) Use diagnostics to check the assumptions of the model.
-🧪 Model assumptions were evaluated using a worm plot.
+### 🧪 (c) Use diagnostics to check the assumptions of the model.
+ Model assumptions were evaluated using a worm plot.
 
-Interpretation
+📝 Interpretation
 
 -- Residuals lie mostly within the 95% confidence bands
 
@@ -143,9 +130,9 @@ Interpretation
 
 
 
-### (d) Use the model for prediction.
-🔮 Prediction
+### 🔮 (d) Use the model for prediction.
 
+📝 Prediction
 A new dataset (newdt) containing 7 observations was created using the five selected predictors.
 
 Steps:
@@ -169,6 +156,12 @@ Steps:
   <em>Figure: predicted response values based on new data</em>
 </p>
 
+
+<div align="center">
+  
+**[⬆ Back to Top](#-supply-chain-insights-product-performance-brand-value-supplier-trends)**
+
+</div>
 
 
 
