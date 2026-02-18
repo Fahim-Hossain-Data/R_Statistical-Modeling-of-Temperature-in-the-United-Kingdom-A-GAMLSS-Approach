@@ -83,6 +83,7 @@ To reduce overfitting, variables were selected based on correlation strength:
 
 </div>
 
+
 The correlation between the response variable and all explanatory variables is shown below:
 
 <p align="center">
@@ -104,6 +105,7 @@ Based on AIC minimization, the best-fitting model was:
 ✅ Exponential Gaussian (exGAUS)
 
 AIC: 2296.227
+
 
 The Akaike Information Criterion (AIC) values of all 23 models are presented below.
 
@@ -145,6 +147,7 @@ Steps:
 * Apply predict() using the fitted GAMLSS model (exGAUS)
 
 * Store predictions in predicted_temperature
+
 
 The first figure shows the creation of the new data frame (newdt), and the second figure presents the predicted temperatures generated using the Exponential Gaussian (exGAUS) model.
 
