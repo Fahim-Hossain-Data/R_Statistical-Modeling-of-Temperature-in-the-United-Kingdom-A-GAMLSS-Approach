@@ -172,7 +172,7 @@ The first figure shows the creation of the new data frame (newdt), and the secon
 
 <div align="center">
   
-**[⬆ Back to Top](#R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach)**
+**[⬆ Back to Top](#-statistical-modeling-of-temperature-in-the-united-kingdom-a-gamlss-approach)**
 
 </div>
 
