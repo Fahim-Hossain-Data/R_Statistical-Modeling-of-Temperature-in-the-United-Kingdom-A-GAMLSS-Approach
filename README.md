@@ -22,7 +22,7 @@ The dataset contains 18 variables in total, of which 17 are considered explanato
 To avoid overfitting, three variables with the strongest correlation to temperature, namely uv_index, air_quality_Ozone, and humidity, are selected. Additionally, two variables with the weakest correlation, moon_illumination and cloud, are also chosen to observe their influence on the model. As a result, the new dataset includes five explanatory variables and one response variable, while the number of observations remains unchanged.  
 The correlation between the response variable and all explanatory variables is shown in Figure-3.3.
 
-![Correlation](https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/19381b7126905bda11fb008de64c607dfab7280b/Corr.png)
+![Correlation](https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/885fdac2e490547adb080a5fff23949279277a54/Correlation.png)
 
 2. Choosing appropriate distribution for the response variable
 First, the required libraries (gamlss, gamlss.ggplot, and pacman) are loaded. Then, the chooseDist function is used to determine which distributions can be applied to the data. A total of 23 distributions are found to be suitable for the dataset (Figure-3.10). Based on the AIC value of 2296.227, the exGaus (exponentially modified Gaussian) distribution is selected as the best model (Figure-3.11).
