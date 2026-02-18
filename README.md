@@ -108,8 +108,6 @@ The correlation between the response variable and all explanatory variables is s
 ### 2️⃣ Choosing appropriate distribution for the response variable
 
 #### 📚 R Libraries Used:
-
-```r
 library(gamlss)
 library(gamlss.ggplot)
 library(pacman)</b>
