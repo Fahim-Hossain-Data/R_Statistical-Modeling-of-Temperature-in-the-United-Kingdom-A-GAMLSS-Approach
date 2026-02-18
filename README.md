@@ -116,7 +116,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 </p>
 
 
-### 🧪 (c) Use diagnostics to check the assumptions of the model.
+## 🧪 (c) Use diagnostics to check the assumptions of the model.
  Model assumptions were evaluated using a worm plot.
 
 📝 Interpretation
@@ -135,7 +135,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 
 
 
-### 🔮 (d) Use the model for prediction.
+## 🔮 (d) Use the model for prediction.
 
 📝 Prediction
 A new dataset (newdt) containing 7 observations was created using the five selected predictors.
