@@ -1,13 +1,26 @@
 ## R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach
-This project focuses on statistical modeling and prediction of temperature in the United Kingdom using atmospheric and environmental variables.
+This project performs statistical modeling and prediction of temperature patterns in the United Kingdom using atmospheric and environmental variables. The analysis identifies key temperature predictors and develops a robust predictive model using Generalized Additive Models for Location, Scale, and Shape (GAMLSS) framework.
 
-### (a)	Perform a preliminary analysis on your data, this usually involves exploratory plots.
-As the first step in the analysis, a subset of data specific to the United Kingdom was extracted from the “Wthr_data” dataset.  The resulting dataset consists of 358 data points and 18 variables, 
-with no missing values. Now, the response variable in this analysis is temperature, measured in Fahrenheit (temperature_fahrenheit). The temperature values in the dataset range from 28.6°F to 91.0°F, 
-indicating a broad variation in weather conditions across the recorded observations. All other variables in the dataset, which serve as explanatory variables, are numeric. In the histogram (Figure-3.1), 
-the x-axis represents temperature in degrees Fahrenheit (°F), while the y-axis shows the density, interpreted as probability. The distribution exhibits a prominent peak between 50°F and 55°F, indicating 
-that most temperature values fall within this range. The black line represents the kernel density estimate, which provides a smoothed version of the data distribution. The red dashed line shows the normal 
-distribution curve based on the sample mean and standard deviation, allowing for comparison between the observed and theoretical distributions.
+### 📊 (a)	Perform a preliminary analysis on your data, this usually involves exploratory plots.
+
+📝 A subset of data specific to the United Kingdom was extracted from the Wthr_data dataset.
+The resulting dataset contains:
+
+358 observations
+
+18 variables
+
+No missing values
+
+The response variable is temperature (°F), ranging from 28.6°F to 91.0°F, indicating substantial variability in weather conditions. All explanatory variables are numeric.
+
+Histogram Interpretation
+
+The distribution shows a peak between 50°F and 55°F
+
+Black line → Kernel density estimate (smoothed distribution)
+
+Red dashed line → Normal distribution comparison
 
 ![Histrogram](https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/e9e62b7fa22f008540f8cb41fdc3586119e32e1f/histogram.png)
 
@@ -19,7 +32,28 @@ This section consists of two parts: first, the explanatory variables are selecte
 
 1. Correlation Analysis between Explanatory Variables and the Response Variable
 The dataset contains 18 variables in total, of which 17 are considered explanatory variables. Initially, the correlation between each explanatory variable and the response variable (temperature) will be examined.
-To avoid overfitting, three variables with the strongest correlation to temperature, namely uv_index, air_quality_Ozone, and humidity, are selected. Additionally, two variables with the weakest correlation, moon_illumination and cloud, are also chosen to observe their influence on the model. As a result, the new dataset includes five explanatory variables and one response variable, while the number of observations remains unchanged.  
+The dataset contains 17 explanatory variables.
+To reduce overfitting:
+
+Strongest correlations selected:
+
+uv_index
+
+air_quality_Ozone
+
+humidity
+
+Weak correlations included for comparison:
+
+moon_illumination
+
+cloud
+
+Final modeling dataset:
+
+5 explanatory variables
+
+1 response variable (temperature)
 The correlation between the response variable and all explanatory variables is shown in Figure-3.3.
 
 ![Correlation](https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/885fdac2e490547adb080a5fff23949279277a54/Correlation.png)
