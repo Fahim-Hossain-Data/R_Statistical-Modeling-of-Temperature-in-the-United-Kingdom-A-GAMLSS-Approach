@@ -164,6 +164,18 @@ The first figure shows the creation of the new data frame (newdt), and the secon
   <em>Figure: predicted response values based on new data</em>
 </p>
 
+## 📌 Conclusion
+
+<div align="center">
+  <img src="https://img.shields.io/badge/-Key%20Finding%20Summary-blue?style=for-the-badge" alt="Key Finding Summary"/>
+</div>
+
+<br>
+
+> 🎯 **The GAMLSS framework with exGAUS distribution effectively captures temperature patterns in the UK, providing a robust foundation for understanding and predicting temperature variations based on atmospheric and environmental variables.**
+
+<br>
+
 
 <div align="center">
   
