@@ -58,6 +58,14 @@ The distribution shows a prominent peak between **50°F and 55°F**, indicating 
 
 The dataset contains **18 variables** in total, of which **17 are considered explanatory variables**. Initially, the correlation between each explanatory variable and the response variable (temperature) will be examined.
 
+The correlation between the response variable and all explanatory variables is shown below:
+
+<p align="center">
+  <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/885fdac2e490547adb080a5fff23949279277a54/Correlation.png" alt="Correlation Analysis" width="600"/>
+  <br>
+  <em>Figure: Correlation between response variable and all explanatory variables</em>
+</p>
+
 #### 🎯 Variable Selection Strategy
 
 To reduce overfitting, variables were selected based on correlation strength:
@@ -84,13 +92,6 @@ To reduce overfitting, variables were selected based on correlation strength:
 </div>
 
 
-The correlation between the response variable and all explanatory variables is shown below:
-
-<p align="center">
-  <img src="https://github.com/Fahim0729/R_Statistical-Modeling-of-Temperature-in-the-United-Kingdom-A-GAMLSS-Approach/blob/885fdac2e490547adb080a5fff23949279277a54/Correlation.png" alt="Correlation Analysis" width="600"/>
-  <br>
-  <em>Figure: Correlation between response variable and all explanatory variables</em>
-</p>
 
 ### 2️⃣ Choosing appropriate distribution for the response variable
 
