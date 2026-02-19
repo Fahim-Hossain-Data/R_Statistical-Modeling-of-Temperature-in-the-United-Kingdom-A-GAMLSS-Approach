@@ -116,9 +116,10 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
   <em>Figure: AIC values of all Models</em>
 </p>
 
+---
 
 ## 🧪 (c) Use diagnostics to check the assumptions of the model.
- Model(exGAUS) assumptions were evaluated using a worm plot.
+ Model (exGAUS) assumptions were evaluated using a worm plot.
 
 📝 Interpretation
 
@@ -134,7 +135,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
   <em>Figure: worm plot of exGAUS model</em>
 </p>
 
-
+---
 
 ## 🔮 (d) Use the model for prediction.
 
@@ -165,6 +166,8 @@ The first figure shows the creation of the new data frame (newdt), and the secon
   <br>
   <em>Figure: predicted response values based on new data</em>
 </p>
+
+---
 
 ## 📌 Conclusion
 🎯 **The GAMLSS framework with exGAUS distribution effectively captures temperature patterns in the UK, providing a robust foundation for understanding and predicting temperature variations based on atmospheric and environmental variables.**
