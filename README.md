@@ -7,12 +7,12 @@ This project performs **statistical modeling and prediction of temperature patte
 
 ---
 
-## 🔬 Project Methodology and Analysis Tasks 
+## ⚙️ Project Methodology and Analysis Tasks 
 
 
 ### 📊 (a) Perform a preliminary analysis of the dataset, this usually involves exploratory plots.
 
-**📝 Data Extraction & Summary**
+**📝 Data Extraction & Summary:**
 
 A subset of data specific to the United Kingdom was extracted from the **Wthr_data** dataset.
 
@@ -124,7 +124,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 ### 🧪 (c) Use diagnostics to check the assumptions of the model.
  Model (exGAUS) assumptions were evaluated using a worm plot.
 
-📝 Interpretation
+📝 Interpretation:
 
 * Residuals lie mostly within the 95% confidence bands
 
@@ -142,9 +142,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 
 ### 🔮 (d) Use the model for prediction.
 
-📝 Prediction
-
-A new dataset (newdt) containing 7 observations was created using the five selected predictors.
+📝 A new dataset (newdt) containing 7 observations was created using the five selected predictors.
 
 Steps:
 
