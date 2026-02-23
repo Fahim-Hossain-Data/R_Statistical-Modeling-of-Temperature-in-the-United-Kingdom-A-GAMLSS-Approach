@@ -12,7 +12,7 @@ This project performs **statistical modeling and prediction of temperature patte
 
 ### 📊 (a) Perform a preliminary analysis of the dataset, this usually involves exploratory plots.
 
-**📝 Data Extraction & Summary:**
+**📝 Data Summary:**
 
 A subset of data specific to the United Kingdom was extracted from the **Wthr_data** dataset.
 
