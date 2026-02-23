@@ -173,6 +173,12 @@ The first figure shows the creation of the new data frame (newdt), and the secon
 ## 📌 Conclusion
 🎯 **The GAMLSS framework with exGAUS distribution effectively captures temperature patterns in the UK, providing a robust foundation for understanding and predicting temperature variations based on atmospheric and environmental variables.**
 
+---
+
+## 🌐 I’d Love to Connect!
+
+- **LinkedIn:** [Md Fahim Hossain](https://www.linkedin.com/in/md-fahim-hossain-b51258227/)  
+- **Email:** [fahimhossain0729@gmail.com](mailto:fahimhossain0729@gmail.com)
 
 
 
