@@ -7,9 +7,12 @@ This project performs **statistical modeling and prediction of temperature patte
 
 ---
 
-## 📊 (a) Perform a preliminary analysis of the dataset, this usually involves exploratory plots.
+## 🔬 Project Methodology and Analysis Tasks 
 
-### 📝 Data Extraction & Summary
+
+### 📊 (a) Perform a preliminary analysis of the dataset, this usually involves exploratory plots.
+
+**📝 Data Extraction & Summary**
 
 A subset of data specific to the United Kingdom was extracted from the **Wthr_data** dataset.
 
@@ -27,9 +30,9 @@ A subset of data specific to the United Kingdom was extracted from the **Wthr_da
 
 > ℹ️ **Note**: The response variable is temperature (°F), ranging from 28.6°F to 91.0°F, indicating substantial variability in weather conditions. All explanatory variables are numeric.
 
-### 📈 Histogram Interpretation
+**📈 Histogram Interpretation**
 
-The distribution shows a prominent peak between **50°F and 55°F**, indicating that most temperature values fall within this range.
+The distribution shows a prominent peak between 50°F and 55°F, indicating that most temperature values fall within this range, reflecting the UK’s generally mild climate.
 
 - ⚫ **Black line** → Kernel density estimate (smoothed distribution)
 - 🔴 **Red dashed line** → Normal distribution comparison
@@ -42,7 +45,7 @@ The distribution shows a prominent peak between **50°F and 55°F**, indicating 
 
 ---
 
-## 🎯 (b) Find an appropriate statistical model for the response variable in your data using the explanatory variables.
+### 🎯 (b) Find an appropriate statistical model for the response variable in your data using the explanatory variables.
 
 
 <details>
@@ -54,7 +57,7 @@ The distribution shows a prominent peak between **50°F and 55°F**, indicating 
 
 </details>
 
-### 1️⃣ Correlation Analysis between Explanatory Variables and the Response Variable
+**1️⃣ Correlation Analysis between Explanatory Variables and the Response Variable**
 
 The dataset contains **18 variables** in total, of which **17 are considered explanatory variables**. Initially, the correlation between each explanatory variable and the response variable (temperature) will be examined.
 
@@ -66,7 +69,7 @@ The correlation between the response variable and all explanatory variables is s
   <em>Figure: Correlation between response variable and all explanatory variables</em>
 </p>
 
-#### 🎯 Variable Selection Strategy
+**🎯 Variable Selection Strategy**
 
 To reduce overfitting, variables were selected based on correlation strength:
 
@@ -80,7 +83,7 @@ To reduce overfitting, variables were selected based on correlation strength:
 
 </div>
 
-#### 📦 Final Modeling Dataset:
+**📦 Final Modeling Dataset:**
 
 <div align="center">
 
@@ -93,9 +96,9 @@ To reduce overfitting, variables were selected based on correlation strength:
 
 
 
-### 2️⃣ Choosing appropriate distribution for the response variable
+**2️⃣ Choosing appropriate distribution for the response variable**
 
-#### 📚 R Libraries Used:
+**📚 R Libraries Used:**
 library(gamlss)
 library(gamlss.ggplot)
 library(pacman)
@@ -118,7 +121,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 
 ---
 
-## 🧪 (c) Use diagnostics to check the assumptions of the model.
+### 🧪 (c) Use diagnostics to check the assumptions of the model.
  Model (exGAUS) assumptions were evaluated using a worm plot.
 
 📝 Interpretation
@@ -137,7 +140,7 @@ The Akaike Information Criterion (AIC) values of all 23 models are presented bel
 
 ---
 
-## 🔮 (d) Use the model for prediction.
+### 🔮 (d) Use the model for prediction.
 
 📝 Prediction
 
